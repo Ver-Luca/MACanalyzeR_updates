@@ -47,9 +47,9 @@ PathCreatoR <- function(
   # Dynamically assign data based on organism
   # These datasets are assumed to be available in the package data
   if (organism == "hs") {
-    gsea_data <- MACanalyzeR::gsea_human
+    gsea_data <- gsea_human
   } else {
-    gsea_data <- MACanalyzeR::gsea_mouse
+    gsea_data <- gsea_mouse
   }
 
   # Check if subcollection is valid
